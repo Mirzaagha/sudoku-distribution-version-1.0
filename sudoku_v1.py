@@ -31,7 +31,7 @@ while iterator < 81:
 			a = 7
 		else:
 			a = 8
-	random = randint(1,9)
+	random = randint(1, 9)
 	for z in range(0,x):
 		if sudoku[z][y] == random:
 			key = 0

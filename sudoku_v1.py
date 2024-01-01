@@ -2,7 +2,7 @@ import numpy as np
 from random import randint
 sudoku = np.arange(81).reshape(9, -1)
 print(sudoku)
-blocks = np.zeros((9,9),dtype=np.int)
+blocks = np.zeros((9, 9),dtype=np.int)
 iterator = 0
 avoid = np.zeros((9),dtype=np.int)
 
